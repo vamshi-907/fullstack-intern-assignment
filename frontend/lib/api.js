@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://fullstack-intern-assignment-z2rp.onrender.com/api",
 });
 
 export const setToken = (token) => {
